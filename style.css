@@ -13,16 +13,16 @@ header {
 
 .step-box {
   width: 100%;
-  margin: 40px 0;
+  margin: 50px 0;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .step-list {
   position: relative;
   width: 90%;
   background-color: #d3d3d3;
-  margin: 10px auto;
+  margin: 20px 20px;
 }
 
 .step-visual-content {
@@ -63,4 +63,8 @@ footer {
   .step-box {
     width: 100%;
     display: block;
+  }
+
+  .step-list {
+    margin: 20px auto;
   }
